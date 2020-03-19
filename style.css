@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-gap: 10px;
+}
+li{
+    background-color: tomato;
+    height: 60px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.done,.delete{
+    float: right;
+    background-color: rgb(168, 60, 41);
+    border-color: tomato;
+    color: white;
+    font-size: 25px;
+}
+.toggle{
+    background-color: green;
+    text-decoration: line-through;
+}
